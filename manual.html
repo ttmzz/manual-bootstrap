@@ -160,6 +160,67 @@
       <li><code>div.tab-content</code>: envolve todos os conteúdos que serão mostrados/ocultados conforme a aba clicada.</li>
       <li><code>div.tab-pane</code>: cada painel de conteúdo correspondente a uma aba (visível ou oculto dependendo da aba ativa).</li>
     </ul>
+
+    <h2>🔹 6. Barras de navegação com Navbar e Nav</h2>
+    <ul>
+      <li><code>navbar</code>: Classe base obrigatória para qualquer barra de navegação.</li>
+      <li><code>navbar-expand-{breakpoint}</code>: Controla quando a navbar se expande horizontalmente (ex: navbar-expand-lg).</li>
+      <li><code>navbar-light</code> / <code>navbar-dark</code>: Define a cor do texto (claro ou escuro).</li>
+      <li><code>div.tab-content</code>: envolve todos os conteúdos que serão mostrados/ocultados conforme a aba clicada.</li>
+      <li><code>bg-light, bg-dark, bg-primary, etc.</code>: Define a cor de fundo da navbar.</li>
+      <li><code>navbar-brand</code>: Estiliza o nome ou logotipo da marca.</li>
+      <li><code>navbar-toggler</code>: Botão usado em telas pequenas para abrir o menu.</li>
+      <li><code>navbar-toggler-icon</code>: Ícone visual do botão (ícone de hambúrguer).</li>
+      <li><code>navbar-collapse collapse</code>: Define o conteúdo que será expandido ou colapsado.</li>
+      <li><code>navbar-nav</code>: Agrupa os itens de navegação (lista de links).</li>
+
+    </ul>
+
+    <table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif;">
+      <thead>
+        <tr style="background-color: #f2f2f2;">
+          <th style="border: 1px solid #ccc; padding: 8px; text-align: left;">🔹 Classe</th>
+          <th style="border: 1px solid #ccc; padding: 8px; text-align: left;">Função</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="border: 1px solid #ccc; padding: 8px;"><code>nav</code></td>
+          <td style="border: 1px solid #ccc; padding: 8px;">Classe base para uma navegação simples (horizontal ou vertical).</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; padding: 8px;"><code>nav-item</code></td>
+          <td style="border: 1px solid #ccc; padding: 8px;">Define cada item da navegação.</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; padding: 8px;"><code>nav-link</code></td>
+          <td style="border: 1px solid #ccc; padding: 8px;">Aplicado ao link dentro do item.</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; padding: 8px;"><code>nav-tabs</code></td>
+          <td style="border: 1px solid #ccc; padding: 8px;">Estiliza os itens como abas.</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; padding: 8px;"><code>nav-pills</code></td>
+          <td style="border: 1px solid #ccc; padding: 8px;">Estiliza os itens como botões/pílulas.</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid #ccc; padding: 8px;"><code>flex-column</code></td>
+          <td style="border: 1px solid #ccc; padding: 8px;">Torna a navegação vertical (em combinação com <code>nav</code>).</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>📝 7. Caroucel - slides</h2>
+    <h3 class="fs-5 fw-lighter">🔧 <span>Como funciona:</span> O Bootstrap usa <span>JavaScript</span> e <span>classes CSS</span> específicas para mostrar e esconder o conteúdo conforme a aba clicada.</h3>
+    <ul>
+      <li><code>carousel</code> e <code>carousel-inner</code>: são as classes principais para criar o carrossel e agrupar os itens.</li>
+      <li>Cada <code> div class="carousel-item"></code> representa um item dentro do carrossel.</li>
+      <li><code>carousel-control-prev</code> e <code>carousel-control-next</code> são usados para navegação por setas.</li>
+      <li><code>div.tab-content</code>: envolve todos os conteúdos que serão mostrados/ocultados conforme a aba clicada.</li>
+      <li><code>data-ride="carousel"</code>: garante que o carrossel se inicie automaticamente.</li>
+      <li><code> ol class="carousel-indicators"></code>: cada item dentro de <li> possui um link para um slide específico, usando <code>data-slide-to</code>.</li>
+    </ul>
     
     <h2>💡 Dica Extra: Padrões de Classe</h2>
     <ul>
